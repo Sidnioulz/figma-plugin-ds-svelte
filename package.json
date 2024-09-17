@@ -42,8 +42,14 @@
     "src"
   ],
   "exports": {
-    ".": "./src/index.js",
-    "./css": "./src/global.css"
+    ".": {
+      "default": "./src/index.js",
+      "svelte": "./src/index.js"
+    },
+    "./css": {
+      "default": "./src/global.css",
+      "svelte": "./src/global.css"
+    }
   },
   "author": "Thomas Lowry",
   "license": "MIT",
