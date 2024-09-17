@@ -41,6 +41,10 @@
   "files": [
     "src"
   ],
+  "exports": {
+    ".": "./src/index.js",
+    "./css": "./src/global.css"
+  },
   "author": "Thomas Lowry",
   "license": "MIT",
   "bugs": {
